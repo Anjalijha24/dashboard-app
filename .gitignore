@@ -12,9 +12,18 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
+# Build output
+out
+
 # Vercel
 .vercel
 
-# IDE
+# Env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE / Editor folders
 .vscode
 .idea
